@@ -10,6 +10,9 @@ scala_binary(
         "@jetty_io//jar",
         "@jetty_servlet//jar",
         "@javax_servlet_api//jar",
+        "//order-system/src/main/scala/sample/orders/common",
+        "//order-system/src/main/scala/sample/orders/dal",
+        "//order-system/src/main/scala/sample/orders/core",
     ],
     main_class = "sample.orders.server.OrderSystemApp"
 )
