@@ -1,5 +1,4 @@
 *.class
 *.log
 bazel-*
-tools
 .project
