@@ -35,3 +35,58 @@ maven_jar(
     name = "ch_qos_logback__logback_core",
     artifact = "ch.qos.logback:logback-core:1.2.3",
 )
+
+maven_jar(
+    name = "mysql__mysql_connector_java",
+    artifact = "mysql:mysql-connector-java:8.0.12",
+)
+
+maven_jar(
+    name = "jetty_server",
+    artifact = "org.eclipse.jetty:jetty-server:9.4.12.v20180830",
+)
+
+maven_jar(
+    name = "jetty_util",
+    artifact = "org.eclipse.jetty:jetty-util:9.4.12.v20180830",
+)
+
+maven_jar(
+    name = "jetty_http",
+    artifact = "org.eclipse.jetty:jetty-http:9.4.12.v20180830",
+)
+
+maven_jar(
+    name = "jetty_io",
+    artifact = "org.eclipse.jetty:jetty-io:9.4.12.v20180830",
+)
+
+maven_jar(
+    name = "jetty_servlet",
+    artifact = "org.eclipse.jetty:jetty-servlet:9.4.12.v20180830",
+)
+
+#maven_jar(
+#    name = "jersey_server",
+#    artifact = "org.glassfish.jersey.core:jersey-server:2.27",
+#)
+#
+#maven_jar(
+#    name = "jersey_container_servlet",
+#    artifact = "org.glassfish.jersey.containers:jersey-container-servlet:2.27",
+#)
+
+#maven_jar(
+#    name = "jax_rs_api",
+#    artifact = "javax.ws.rs:javax.ws.rs-api:2.0",
+#)
+
+maven_jar(
+    name = "jsr311_api",
+    artifact = "javax.ws.rs:jsr311-api:1.1.1",
+)
+
+maven_jar(
+    name = "javax_servlet_api",
+    artifact = "javax.servlet:javax.servlet-api:4.0.1",
+)
