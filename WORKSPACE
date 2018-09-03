@@ -1,4 +1,4 @@
-workspace(name = "order-system")
+workspace(name = "order_system")
 
 rules_scala_version="74a91254f7e2335496813407e210ac00542cd44e"
 
